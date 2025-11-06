@@ -13,6 +13,7 @@ struct ContentView: View {
             Image(systemName: "swift")
                 .resizable()
                 .scaledToFit()
+        
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
