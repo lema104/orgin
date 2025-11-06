@@ -15,7 +15,9 @@ struct ContentView: View {
                 .scaledToFit()
         
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("I am and iOS Developer!")
+                .font(.title)
+                .foregroundStyle(.blue)
         }
         .padding()
     }
